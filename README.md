@@ -8,7 +8,7 @@ git clone https://github.com/r1is/Magisk_burpsuite_cert.git
 ```bash
 cd Magisk_burpsuite_cert
 find ./ -name ".DS_Store" -depth -exec rm {} \;
- zip -r Magisk_moudle_burpsuite_crts.zip . -x ".DS_Store" -x "README.md" -x ".gitignore"
+zip -r Magisk_moudle_burpsuite_crts.zip . -x ".DS_Store" -x "README.md" -x ".gitignore" -x "./.git/*"
 ```
 3. 将2中生成的 **`Magisk_moudle_burpsuite_crts.zip`** 上传到安卓手机
 例如：
