@@ -25,6 +25,9 @@ adb push Magisk_moudle_burpsuite_crts.zip /sdcard/
   
 `https://github.com/r1is/Magisk_burpsuite_cert/releases/download/2022.8.3/Magisk_moudle_burpsuite_crts.zip`
 
+## 效果图
+<img width="240" alt="image" src="https://user-images.githubusercontent.com/21257485/214492353-cf53ef41-0542-4f89-9c5e-2188a109190a.png">
+
 
 ## 微信公众号
 <img width="328" alt="image" src="https://user-images.githubusercontent.com/21257485/211754137-a016af45-6725-46d1-b198-85eaac2b8a48.png"><img src="https://user-images.githubusercontent.com/21257485/211754284-829f1a24-c23b-46ff-a3f8-70fc81c409d6.png" width="250">
