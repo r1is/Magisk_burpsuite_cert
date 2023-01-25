@@ -1,30 +1,30 @@
-# Magisk Module Template
+## 使用方法一
 
-This `README.md` will be shown in Magisk Manager. Place any information / changelog / notes you like.
+1. 下载源码
+```bash
+https://github.com/r1is/Magisk_burpsuite_cert.git
+```
+2. 进入`Magisk_burpsuite_cert`文件夹，并使用zip打包
+```bash
+cd Magisk_burpsuite_cert
+find ./ -name ".DS_Store" -depth -exec rm {} \;
+ zip -r Magisk_moudle_burpsuite_crts.zip . -x ".DS_Store" -x "README.md" -x ".gitignore"
+```
+3. 将2中生成的 ** `Magisk_moudle_burpsuite_crts.zip` ** 上传到安卓手机
+例如：
+```bash
+adb push Magisk_moudle_burpsuite_crts.zip /sdcard/
+```
+4. 在 magisk 模块中安装
+<img width="240" alt="image" src="https://user-images.githubusercontent.com/21257485/214491097-96b7d95f-7f7c-447f-85ee-b6e646163f78.png">
 
-**Please update `README.md` if you want to submit your module to the online repo!**
+## 使用方法二
+直接从** `releases` **页面下载 `Magisk_moudle_burpsuite_crts.zip`
+上传到手机，再用 Magsik 模块进行安装 
+  
+  
+`https://github.com/r1is/Magisk_burpsuite_cert/releases/download/2022.8.3/Magisk_moudle_burpsuite_crts.zip`
 
-Github has its own online markdown editor with a preview feature, you can use it to update your `README.md`! If you need more advanced syntax, check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/modules.md)
-
----
-# **Module Name**
-## Description
-Description here
-## Changelog
-Changelog here
-## Requirements
-- Requirement 1
-- Requirement *
-- Requirement n
-## Instructions
-Instructions here
-- Or other instructions here
-- Followed by more instructions
-1. Or a list of instructions
-2. With more instructions
-## Links
-[Module XDA Forum Thread](https://forum.xda-developers.com/apps/magisk/module-url-here "Module official XDA thread")
-
-[Latest stable Magisk](http://www.tiny.cc/latestmagisk)
+## 微信公众号
+<img width="328" alt="image" src="https://user-images.githubusercontent.com/21257485/211754137-a016af45-6725-46d1-b198-85eaac2b8a48.png"><img src="https://user-images.githubusercontent.com/21257485/211754284-829f1a24-c23b-46ff-a3f8-70fc81c409d6.png" width="250">
