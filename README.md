@@ -2,7 +2,7 @@
 
 1. 下载源码
 ```bash
-git https://github.com/r1is/Magisk_burpsuite_cert.git
+git clone https://github.com/r1is/Magisk_burpsuite_cert.git
 ```
 2. 进入`Magisk_burpsuite_cert`文件夹，并使用zip打包
 ```bash
